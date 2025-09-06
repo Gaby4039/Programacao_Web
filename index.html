@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <body>
+            <h1> Clique no botão abaixo </h1>
+            <button onclick="acao()"> Clique </button>
+            <p> _______ </p>
+        </body>
+        <script>
+            var btn = document.querySelector("button");
+
+            function acao() {
+                var resposta = document.querySelector('p')
+                resposta.textContent = ("Você clicou no nbotão")
+
+                var body = document.querySelector('body')
+
+                function criabotao () {
+                    var novo_elemento = document.createElement('button') //Criou o elemento, mas não posicionou em lugar nenhum, portanto, precisa posicionar no elemento pai
+                    body.appendChild(novo_elemento) //Adiciona depois do parágrafo o novo elemento, no elemento pai body
+                    novo_elemento.textContent = "Oi" //Adiciona texto no elemento
+                    novo_elemento.style.backgroundColor = "red" 
+
+                }
+              }
+
+            
+            
+        </script>
+    </head>
+</html>
