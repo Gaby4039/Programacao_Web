@@ -1,0 +1,9 @@
+1- Windows + R para pesquisar pelas variáveis de ambiente (Para esta conta);
+2- Clicar em variáveis de ambiente;
+3- Clicar em path e em editar;
+4- Clicar em new e adicionar o valor: C:\xampp\php;
+5- Navegar até o C:\xampp\php no terminal;
+6- Abrir o terminal e digitar php -i (Se aparecer algo grande na tela é porque funcionou);
+7- Copiar o conteúdo do output e colar no https://xdebug.org/wizard;
+8- Seguir as instruções que dá: baixar o arquivo indicado, mover para C:\xampp\php\ext e renomear para php_xdebug.dll, editar o arquivo C:\xampp\php\php.ini e adicionar zend_extension = xdebug na última linha;
+9- Verificar se há o banner 
