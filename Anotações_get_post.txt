@@ -1,0 +1,16 @@
+Fazendo uma requisição GET
+
+fetch("ENDEREÇO SITE", {...}) -Chave em JavaScript é um objeto
+  .then(FUNÇÃO.TRATA RETORNO.SITE) -Tem um parâmetro, que é uma função arrow
+  .catch(FUNÇÃO TRATAR ERRO);
+
+EXEMPLO
+
+fetch('https://exemplo.com/api') -Retorna uma promise(valor que ainda não está disponível, mas estará no futuro)
+  .then(response => response.json()) -Retorna outra promise, decodifica a resposta, é assíncrono, não responde na hora
+  .then(data => console.log(data)) -Trata o json
+  .catch(error => console.error('Erro:', error)); Fetch retorna uma promise e then acontece quando promise for resolvida
+
+Fetch é a API utilizada para fazer requisições ao servidor
+
+
